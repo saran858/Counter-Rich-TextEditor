@@ -18,7 +18,7 @@ const RichTextEditor = ({ userData }) => {
         }}
       />
       
-      <Box sx={{mt: 2,border: '1px solid ' ,borderRadius: 2,maxWidth: '100%', overflow: 'auto',color:'white'}}>
+      <Box sx={{mt: 2,border: '1px solid ' ,borderRadius: 2,p:2,maxWidth: '100%', overflow: 'auto',color:'white'}}>
         <Typography variant="h6">User Data</Typography>
         <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word' ,margin: 0}}>{JSON.stringify(userData, null, 2)}</pre>
       </Box>
